@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/27c6abf258.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.8.9/build/spline-viewer.js"
+    ></script>
+    <spline-viewer
+      class="spline-viewer"
+      url="https://prod.spline.design/iy0fUWjJOJG0oklK/scene.splinecode"
+    ></spline-viewer>
+    <div class="container">
+      <h1
+        style="
+          font-family: Arial, Helvetica, sans-serif;
+          color: white;
+          position: absolute;
+          top: 0;
+          left: 0;
+          padding-left: 0.7em;
+          padding-top: 0.5em;
+        "
+      >
+        .Spootify
+      </h1>
+      <div class="music-player">
+        <nav>
+          <div class="circle">
+            <i class="fa-solid fa-angles-left"></i>
+          </div>
+          <div class="circle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+        <img src="media/rich-brian.jpg" class="song-img" alt="" />
+        <h1>Free Me</h1>
+        <p>AI Ft. Neefex</p>
+
+        <audio id="song">
+          <source src="media/NEFFEX - Free Me.mp3" type="audio/mpeg" />
+        </audio>
+
+        <input type="range" value="0" id="progress" />
+
+        <div class="controls">
+          <div>
+            <i class="fa-solid fa-backward"></i>
+          </div>
+          <div onclick="playPause()">
+            <i class="fa-solid fa-play" id="ctrIcon"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-forward"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
