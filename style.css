@@ -119,3 +119,9 @@ nav .circle {
   background: #02900d;
   color: #fff;
 }
+
+@media screen and (max-width: 700px) {
+  .container .brand-name {
+    display: none; /* Hide .Spootify heading on small screens */
+  }
+}
