@@ -3,7 +3,7 @@
 ## Overview
 
 The **JS Spootify Music Player** project is a visually appealing and functional music player created using JavaScript, HTML, and CSS. It features a sleek design inspired by modern music player applications and demonstrates how to integrate audio playback functionality within a web application.
-[LISTEN NOW!](https://qyuzet.github.io/js-spootify-music-player/)
+[LISTEN NOW!](https://qyuzet.github.io/js-spootify-music-player/).
 
 ![image](https://github.com/Qyuzet/js-spootify-music-player/assets/93258081/7461c807-bf68-4afc-b17f-6b03a5414206)
 
